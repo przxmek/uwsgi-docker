@@ -1,6 +1,6 @@
-FROM tiangolo/uwsgi-nginx:python2.7
+FROM przxmek/uwsgi:python2.7
 
-LABEL maintainer="Sebastian Ramirez <tiangolo@gmail.com>"
+LABEL maintainer="Przemyslaw Kuczynski <przemek@pkuczynski.pl>"
 
 RUN apt-get update && apt-get install -y cowsay
 
